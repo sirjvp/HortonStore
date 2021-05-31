@@ -1,0 +1,567 @@
+/* every */
+body{
+    margin: 0;
+}
+#top{
+    padding: 100px;
+    background-color:#04163e;
+    clear: both;
+}
+#icon{
+    margin-top: -55px;
+    float: left;
+    margin-left: -7%;
+}
+#icon img{
+    height: 100px;
+}
+#logo {
+    margin-top: -70px;
+    float: left;
+    margin-left: 14%;
+}
+#logo img{
+    height: 130px;
+}
+#admin{
+    margin-top: -45px;
+    float: right;
+    margin-right: 3%;
+}
+#admin img{
+    height: 80px;
+}
+#search{
+    margin-top: -45px;
+    float: right;
+    margin-right: -8%;
+}
+#search img{
+    height: 80px;
+}
+
+
+
+/* nav */
+nav{
+    position: absolute;
+    width: 106%;
+    height: calc(100vh - 50px);
+    background: #333;
+    top: 190px;
+    left: -106%;
+    transition: 0.5s;  
+}
+nav.active{
+    left: -6%;
+}
+nav ul{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+nav ul li{
+    list-style: none;
+}   
+nav ul li a{
+    border: 5px solid black;
+    font-size: 70px;
+    font-family: "Trebuchet MS";
+    color: white;
+    text-decoration: none;
+    line-height: 200px;
+    height: 200px;
+    display: block;
+}
+nav ul li a:hover{
+    background: #2196f3;
+}
+.selected{
+    background: #2196f3;
+}
+
+
+/* index */
+#title p{
+    margin-left: 100px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-family: "Segoe UI";
+}
+#title{
+    padding-top: 400px;
+    padding-bottom: 100px;
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-color: grey;
+}
+#promo1{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-color: grey;
+}
+#promo2{
+    padding-top: 200px;
+    padding-bottom: 300px;
+    background-image: url('3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-color: grey;
+}
+#promo3{
+    padding-top: 500px;
+    padding-bottom: 400px;
+    background-image: url('4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    background-color: grey;
+}
+#one{
+    width: 77%;
+    color: black;
+    font-weight: bold;
+    font-size: 120px;
+    background-color: white;
+}
+#two{
+    width: 77%;
+    color:white;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: black;
+}
+#three{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    border: 3px solid white;
+    width: 23%;
+}
+#about{
+    background-color: lightgrey;
+    padding: 1%;
+}
+#bio{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Segoe UI";
+    background-color: lightgrey;
+}
+
+
+
+/* shop */
+.content{
+    text-align: center;
+}
+
+.content .row{
+  clear: both;  
+    
+}
+.content .row .card{
+    box-shadow: 0px 0px 8px grey;
+    margin-top: 50px;
+    margin-left: 5%;
+    display: block;
+    width: 415px;
+    height: 800px;
+    float: left;
+}
+
+.content .row .card .card-container{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+    font-family: "Trebuchet MS";
+}
+
+.content .row .card .card-container .bold{
+    font-weight: bold;
+}
+
+.content .row .card input{
+    font-size: 35px;
+    font-family: "Trebuchet MS";
+}
+
+.content .row .card .card-container .crop{
+    
+}
+
+.content .row .card .card-container .crop .item-image{
+    width: 375px;
+    height: auto;
+}
+
+.content .row .card .card-container .item-image{
+    width: 375px;
+    height: auto;
+}
+
+.button-center{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: inline-block;
+    background-color: black;
+}
+
+.bar-item-center{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 40px;
+    font-family: "Trebuchet MS";
+}
+
+.bar-item-center:hover{
+    
+}
+.empty{
+    padding-top: 120%;
+}
+
+
+
+/* about */
+#info h1{
+    margin-left: 5%;
+    font-size: 80px;
+    font-family: "Trebuchet MS";
+}
+#photo{
+    text-align: center;
+}
+#photo img{
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+#alamat h1{
+    text-align: right;
+    margin-right: 5%;
+    font-size: 80px;
+    font-family: "Trebuchet MS";
+}
+#galeri{
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+#galeri h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Trebuchet MS";
+}
+#foto{
+    text-align: center;
+}
+#foto img{
+    height: auto;
+    margin: 5%;
+    width: 50%;
+}
+#text{
+    padding: 5%;
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Trebuchet MS";
+    background-color: lightgrey;
+}
+
+
+
+
+/* order */
+#order{
+    font-size: 50px;
+    width: 80%;
+    font-family: "Trebuchet MS";
+    margin-left: 15%;
+}
+#order input{
+    height: 100px;
+    width: 90%;
+    border : 1px solid black;
+    font-size: 50px;
+} 
+
+
+
+/* admin */
+#log{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Trebuchet MS';
+}
+#submit{
+    font-size: 50px;
+    width: 50%;
+}
+#message{
+    text-align: center;
+    color: red;
+}
+#message p{
+    font-size: 40px;
+}
+#message a{
+    font-size: 40px;
+}
+
+
+
+/* every */
+#transition{
+    background-color: white;
+    padding: 50px;
+    clear: both;
+}
+#footer{
+    padding-left: 2%;
+    background-color: #04163e;
+    padding-top: 5%;
+    clear: both;
+    padding-bottom: 1%;
+}
+#footer img{
+    float: left;
+    width: 100px;
+}
+#footer p{
+    font-size: 30px;
+    margin-top: 7%;
+    color: white;
+}
+#footer a{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    float: left;
+    color: white;
+}
+#footer h1{
+    font-size: 50px;
+    color: white;
+}
+#footer #tokped{
+    float: left;
+    margin-left: 1%;
+    width: 70px;
+}
+#footer #credit{
+    margin-top: 10%;
+    margin-left: 27%;
+    color: white;
+    font-size: 30px;
+}
+#space{
+    background-color: white;
+    padding: 320px;
+    clear: both;
+}
+#footer2{
+    padding-left: 2%;
+    background-color: #04163e;
+    padding-top: 5%;
+    clear: both;
+    padding-bottom: 1%;
+}
+#footer2 img{
+    float: left;
+    width: 100px;
+}
+#footer2 p{
+    font-size: 11px;
+    margin-top: 6%;
+    color: white;
+}
+#footer2 a{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+    float: left;
+    color: white;
+}
+#footer2 h1{
+    font-size: 30px;
+    color: white;
+}
+#footer2 #tokped{
+    float: left;
+    margin-left: 1%;
+    width: 70px;
+}
+#footer2 #credit{
+    margin-top: 5%;
+    margin-left: 28%;
+    color: white;
+    font-size: 11px;
+}
+
+
+
+/* database */
+#choice{
+    font-size: 30px;
+    text-align: center;
+}
+#choice a{
+    font-size: 40px;
+    text-decoration: none;
+}
+#choice2{
+    font-size: 30px;
+    text-align: center;
+}
+#choice2 a{
+    font-size: 52px;
+    text-decoration: none;
+}
+#show{
+    margin-left: 5%;
+    font-size: 30px;
+}
+#show .nol{
+    font-size: 50px;
+}
+#add{
+    font-size: 50px;
+    margin-left: 5%;
+}
+#add input{
+    font-size: 50px;
+    border: 1px solid black;
+    width: 50%;
+}
+#add .textarea{
+    height: 300px;
+    width: 90%;
+}
+#add .ifile{
+    font-size: 40px;
+    width: 70%;
+}
+#add .small{
+    width: 20%;
+}
+#add2{
+    font-size: 50px;
+    margin-left: 5%;
+}
+#add2 input{
+    font-size: 50px;
+    border: 1px solid black;
+    width: 100%;
+}
+.tablee{
+    font-size: 50px;
+}
+#rapi input{
+    margin-left: 5%;
+    font-size: 40px;
+}
+
+/* Modal */  
+  /* The Modal (background) */
+  .modal {
+    display: flex;
+    position: fixed; /* Stay in place */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Modal Content/Box */
+  .modal-content{
+    width: 80%;
+    height: auto;
+    margin: 10% auto 15% auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5%;
+    clear: both;
+    position: relative;
+    border: 1px solid #888;
+}
+
+.modal-content img{
+    margin: 1%;
+    width: 300px;
+    height: 300px;
+    display: block;
+    float: left;
+}
+
+.desc{
+    margin-top: 90%;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.desc p{
+    margin: 0;
+}
+.desc .b{
+    margin-top: 5%;
+}
+.desc .c{
+    font-weight: bold;
+    font-size: 40px;
+}
+  
+  /* The Close Button (x) */
+  .close{
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    font-size: 100px;
+    cursor: pointer;
+    color: #000;
+}
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  @media screen and (min-width: 1000px) {
+    body {
+      display: none;
+    }
+  }
